@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header{
+    position: absolute;
+    top: 36px;
+    right: 149px;
+    left: 149px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header__btn{
+    position: fixed;
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 11px 8px;
+    cursor: pointer;
+}
+.header__btn span{
+    border: 1px solid #000000;
+    width: 18px;
+    border-radius: 1px;
+    background-color: #000000;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 149px;
+    min-height: 1000px;
+}
+.title{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* or 124% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    max-width: 438px;
+}
+.description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    display: flex;
+    align-items: center;
+
+    /* Cold Grey/40 */
+
+    color: #9A9EA5;
+    margin: 64px 0;
+    max-width: 438px;
+}
+.btn{
+    max-width:200px;
+    width:100%;
+    min-height: 60px;
+    background: linear-gradient(90deg, #92EBF1 0%, #86FDE8 100%);
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+.abstraction{
+
+}
+.shadow{
+    margin-top: 35px;
+    mix-blend-mode: overlay;
+}
+.wrapper__left-side{
+    padding-top: 212px;
+    width: 50%;
+}
+.wrapper__right-side{
+    width: 50%;
+    padding: 150px 100px 120px;
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(5.78deg, #AAD5D7 4.59%, rgba(194, 228, 231, 0.0001) 29.65%), radial-gradient(33.87% 46.72% at 1.99% 30.7%, #B8E5E7 0%, rgba(171, 218, 220, 0.0001) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(88.89% 122.63% at 99.47% 33.2%, #97CDD2 0%, #ABDADC 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: color, normal, normal, normal;
+}
