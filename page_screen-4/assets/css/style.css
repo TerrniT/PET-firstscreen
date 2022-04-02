@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+button{
+    border:none;
+}
+.wrapper{
+    padding-top: 33px;
+    /* padding-bottom: 220px; */
+    position: relative;
+    overflow: hidden ;
+    
+}
+.logo{
+    margin-left: 100px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto 142px;
+
+}
+.navigation, .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    column-gap: 40px;
+    margin-right: 83px;
+}
+.menu__link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    cursor: pointer;
+    background: #BF5AF2;
+    border: 1px solid #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+
+}
+.btn-mini{
+    padding: 5px 26px;
+    width: 150px;
+    height: 30px;
+}
+.btn-primary{
+    width: 300px;
+    height: 50px;
+    box-shadow: 0px 8px 8px rgba(24, 39, 75, 0.08), 0px 4px 6px rgba(24, 39, 75, 0.12);
+}
+.content__center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content__left{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 490px;
+    margin-left: 250px;
+}
+.content__right{
+    display: flex;
+    justify-content: flex-end; 
+    padding-top: 750px;
+    margin-right: 190px;
+    /* position: relative;
+    bottom: -320px; */
+}
+.title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5856D6;
+    margin-bottom: 78px;
+    max-width: 678px;
+    margin-top: 350px;
+}
+.description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #696C73;
+    margin-bottom: 70px;
+    max-width: 637px;
+}
+.blur{
+    width: 466px;
+    height: 466px;
+    filter: blur(450px);
+    position: absolute;
+}
+.blur-red{
+    background: #FF375F;
+    top: -10px;
+    right: -10px;
+}
+.blur-blue{
+    background: #5E5CE6;
+    left:55% ;
+    bottom: 50px;
+}
+.blur-yellow{
+    background: #FFD60A;
+    left: 160px;
+    top: 72px;
+}
